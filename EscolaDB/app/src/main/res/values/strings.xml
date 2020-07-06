@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EscolaDB</string>
+    <string name="hintN1"> Código da avaliação </string>
+    <string name="hintN2"> Escreva o código da avaliação</string>
+    <string name="hintN3"> Data da Prova </string>
+    <string name="hintN4"> Escreva a data da prova </string>
+    <string name="hintN5"> Menção: </string>
+    <string name="hintN6"> Escreva sua menção </string>
+    <string name="btnExibirConteudo"> Exibir </string>
+    <string name="hintN7"> EXIBIÇÃO</string>
+    <string name="hintN8"> Código </string>
+    <string name="hintN9"> Data </string>
+    <string name="hintN10"> Menção </string>
+</resources>
