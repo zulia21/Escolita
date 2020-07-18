@@ -7,6 +7,7 @@
     tools:context=".Exibicao">
 
     <LinearLayout
+        android:id="@+id/idlayout"
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:orientation="vertical"
@@ -16,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtexibicao"
             android:layout_width="72dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -30,28 +31,29 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
+            android:enabled="false"
             android:hint="@string/hintN8"
-            android:inputType="number"
             android:paddingTop="50dp" />
 
         <EditText
-            android:id="@+id/resultadoData"
+            android:id="@+id/respostaTurno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
+            android:enabled="false"
             android:hint="@string/hintN9"
-            android:inputType="date"
+            android:inputType="text"
             android:paddingTop="40dp" />
 
         <EditText
-            android:id="@+id/respostaMencao"
+            android:id="@+id/respostaSerie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
+            android:enabled="false"
             android:hint="@string/hintN10"
-            android:inputType="date"
             android:paddingTop="40dp" />
 
     </LinearLayout>
